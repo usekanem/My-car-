@@ -1,0 +1,88 @@
+*{
+    margin: 10;
+    padding: 10;
+  }
+  
+  
+  header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/430_BlurredBg.jpg);
+    background-size: cover;
+    
+  }
+  
+  .boom {
+    justify-content: space-between;
+    padding: 5px 0px;
+    align-items: center;
+    display: flex;
+    
+  }
+
+  .boom h1{
+    color: white;
+    font:  sans-serif;
+  }
+  
+  .boom ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    color: white;
+
+  }
+  
+  .boom li {
+    list-style-type: none;
+    font-size: 16px;
+    padding: 0px 25px;
+    
+  }
+  
+  .boom button {
+    padding: 10px 25px;
+    border-radius: 40px;
+  }
+  
+  .btx1 {
+    background: transparent;
+    border: 1px solid cyan;
+  }
+  
+  .btx2 {
+    background: cyan;
+    color: white;
+    border: none;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+ 
+  
+  .corp{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  } 
+  
+  .corp:hover{
+    background: linear-gradient(to bottom, blue, red 100%);
+  }
+  
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: black ;
+    color: rgb(17, 207, 191);
+    display: grid;
+
+  }
